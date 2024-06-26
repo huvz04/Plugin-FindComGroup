@@ -2,22 +2,20 @@
     "$schema": "./manifest_schema.json",
     "manifest_version": 4,
     "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT的插件模板",
+    "name": "共同群友",
+    "slug": "plugin_find_com_group",
+    "description": "寻找你的共同群友？",
     "version": "0.1.0",
     "icon": "./icon.png",
     "thumb": "./icon.svg",
     "authors": [
         {
-            "name": "LiteLoaderQQNT",
-            "link": "https://github.com/LiteLoaderQQNT"
+            "name": "Huvz",
+            "link": "https://github.com/huvz04"
         }
     ],
     "platform": [
-        "win32",
-        "linux",
-        "darwin"
+        "win32"
     ],
     "injects": {
         "renderer": "./src/renderer.js",
@@ -25,11 +23,11 @@
         "preload": "./src/preload.js"
     },
     "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",
+        "repo": "huvz04/Plugin-FindComGroup",
         "branch": "main",
         "release": {
             "tag": "0.1.0",
-            "file": "Plugin-Template.zip"
+            "file": "Plugin-FindComGroup.zip"
         }
     }
 }
